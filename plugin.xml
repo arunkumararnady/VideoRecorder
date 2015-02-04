@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.diona.videoplugin"
+    version="0.2.11">
+    <name>VideoRecorder</name>
+    <description>Cordova video recorder</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,video recorder</keywords>
+    <repo></repo>
+    <issue></issue>
+    <js-module src="www/videorecorder.js" name="VideoRecorder">
+        <clobbers target="VideoRecorder" />
+    </js-module>
+    <!-- android -->
+    <platform name="android">
+    
+    	<config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <activity android:name="com.diona.videoplugin.CameraActivity"
+                      android:label="@string/app_name">
+                      android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+          		      android:configChanges="orientation|keyboardHidden"
+          		      android:screenOrientation="landscape"
+            </activity>
+        </config-file>
+        
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+        	<uses-permission android:name="android.permission.CAMERA"/>
+        	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        	<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+        </config-file>
+
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="VideoRecorder" >
+                <param name="android-package" value="com.diona.videoplugin.VideoRecorder"/>
+            </feature>
+        </config-file>
+        
+        <config-file target="res/values/strings.xml" parent="/*">
+            <string name="video_recording_text">REC</string>
+    		<string name="start_video_recording_text">Start/stop video recording</string>
+    		<string name="video_recording_in_progress_text">Video recording in progress</string>
+        </config-file>
+        
+        
+        <source-file src="src/android/VideoRecorder.java" target-dir="src/com/diona/videoplugin" />
+        <source-file src="src/android/CameraActivity.java" target-dir="src/com/diona/videoplugin" />
+        
+        <source-file src="src/android/CameraPreview.java" target-dir="src/com/diona/videoplugin" />
+        <source-file src="src/android/CameraUtil.java" target-dir="src/com/diona/videoplugin" />
+        <source-file src="src/android/FileCacheUtil.java" target-dir="src/com/diona/videoplugin" />
+        <source-file src="src/android/FontUtil.java" target-dir="src/com/diona/videoplugin" />
+        <source-file src="src/android/LogUtil.java" target-dir="src/com/diona/videoplugin" />
+        <source-file src="src/android/StringUtil.java" target-dir="src/com/diona/videoplugin" />
+        
+        <!--  drawable src/android/resources -->
+        <resource-file src="src/android/res/drawable-hdpi/ic_launcher.png" target="res/drawable-hdpi/ic_launcher.png" />
+
+        <resource-file src="src/android/res/drawable-hdpi/record.png" target="res/drawable-hdpi/record.png" />
+
+        <resource-file src="src/android/res/drawable-hdpi/rounded_image_bg.xml" target="res/drawable-hdpi/rounded_image_bg.xml" />
+        
+        <resource-file src="src/android/res/drawable-hdpi/stop.png" target="res/drawable-hdpi/stop.png" />
+        
+        <resource-file src="src/android/res/anim/blink.xml" target="res/anim/blink.xml" />
+        
+        <resource-file src="src/android/res/layout/camera_layout.xml" target="res/layout/camera_layout.xml" />
+        
+        <resource-file src="src/android/res/values/colours.xml" target="res/values/colours.xml" />
+        <resource-file src="src/android/res/values/content_descriptions.xml" target="res/values/content_descriptions.xml" />
+        <resource-file src="src/android/res/values/styles.xml" target="res/values/styles.xml" />
+        
+        
+        <source-file src="src/android/libs/commons-io-2.4.jar" target-dir="libs" />
+        <source-file src="src/android/libs/android-support-v4.jar" target-dir="libs" />
+    </platform>
+</plugin>
