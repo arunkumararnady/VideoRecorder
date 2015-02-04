@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2014 Diona Ltd.
+  ~ All rights reserved.
+  ~
+  ~ This software is the confidential and proprietary information of Diona
+  ~ ("Confidential Information"). You shall not disclose such Confidential Information
+  ~ and shall use it only in accordance with the terms of the license agreement you
+  ~ entered into with Diona.
+  -->
+
+<resources>
+    <string name="content_description_expand_button_attachments">Expand attachments</string>
+    <string name="content_description_collapse_button_attachments">Collapse attachments.</string>
+    <string name="content_description_attachment_thumbnail">A thumbnail of an attachment.</string>
+    <string name="content_description_attachment_thumbnail_video">A video attachment.</string>
+    <string name="content_description_attachment_thumbnail_audio">An audio attachment.</string>
+    <string name="content_description_attachment_thumbnail_image">An image attachment.</string>
+    <string name="content_description_delete">Delete.</string>
+    <string name="fragment_image_content_description">The full sized attached image.</string>
+    <string name="content_description_phone_icon">A phone icon.</string>
+    <string name="video_preview_content_description">An image from the first frame of the recorded video.</string>
+    <string name="image_preview_content_description">A preview the image.</string>
+    <string name="content_description_case_photo">The image for the case.</string>
+    <string name="content_description_overflow_menu">An overflow menu. Press it to show more options.</string>
+    <string name="content_description_assessment_icon">An icon representing the assessment.</string>
+    <string name="content_description_reminder_case_image">An image representing the case.</string>
+    <string name="content_description_reminder_check">Checkbox for marking a reminder as complete or incomplete.</string>
+    <string name="content_description_dropdown_arrow">Dropdown arrow.</string>
+    <string name="content_description_online_indicator">A coloured indicator for displaying online status.</string>
+    <string name="content_description_comments_popup_tail">Arrow pointing to comments button.</string>
+    <string name="content_description_assessment_type_image">An image representing a type of form.</string>
+    <string name="content_description_audio_recording_blinking_light">A blinking light to indicate recording state.</string>
+    <string name="content_description_audio_flag">Flag current section of the recording as important.</string>
+    <string name="content_description_video_stop">End a recording.</string>
+    <string name="content_description_video_start">Begin recording.</string>
+    <string name="content_description_form_image">An icon to represent a form.</string>
+    <string name="content_description_next_visit_clock">An image of a clock.</string>
+    <string name="content_description_case_member_photo">A photo of the case member.</string>
+    <string name="content_description_email">An email icon.</string>
+    <string name="content_description_clients_popup_tail">An arrow pointing to the clients button.</string>
+    <string name="content_description_client_tick">A tick mark, showing that the client has been selected.</string>
+    <string name="content_description_photo_preview">A preview of the photograph.</string>
+    <string name="content_description_rotate_icon">Rotate image.</string>
+    <string name="content_description_rewind_media">Rewind content.</string>
+    <string name="content_description_pause_media">Pause content.</string>
+    <string name="content_description_forward_media">Fast forward content.</string>
+    <string name="content_description_form_icon">An icon representing the form.</string>
+    <string name="content_description_play_media">Play content.</string>
+    <string name="content_description_edit">Edit</string>
+    <string name="content_description_document_download_status">An image indicating whether or not a document has been downloaded.</string>
+    <string name="content_description_text_to_speech">speaker</string>
+    <string name="content_description_expand_collapse_toggle">Expand collapse toggle.</string>
+    <string name="content_description_reminder_tap_complete">Tap to mark reminder as complete</string>
+    <string name="content_description_reminder_tap_incomplete">Tap to mark reminder as incomplete</string>
+</resources>

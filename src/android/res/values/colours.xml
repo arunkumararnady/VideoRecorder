@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2014 Diona Ltd.
+  ~ All rights reserved.
+  ~
+  ~ This software is the confidential and proprietary information of Diona
+  ~ ("Confidential Information"). You shall not disclose such Confidential Information
+  ~ and shall use it only in accordance with the terms of the license agreement you
+  ~ entered into with Diona.
+-->
+
+<resources>
+
+    <color name="progressbar_colour">#547fbf</color>    
+    <color name="in_progress">#74d018</color>
+    <color name="completed">#34363b</color>
+    <color name="light_grey">#DDDDDD</color>
+    <color name="medium_grey">#818a96</color>
+    <color name="menu_item_selected_text">#FFFFFF</color>
+    <color name="menu_item_unselected_text">#858B97</color>
+    <color name="menu_item_selected_background">#52555D</color>
+    <color name="top_bar_background">#52555D</color>
+    <color name="menu_item_unselected_background">#30333A</color>
+    <color name="primary_text">#34363B</color>
+    <color name="time_text">#5E626C</color>
+    <color name="card_border">#CCCED5</color>
+    <color name="actionbar_button_border">#6B6B6B</color>
+    <color name="actionbar_button_background_unpressed">#34363B</color>
+    <color name="actionbar_button_background_pressed">#547fbf</color>
+    <color name="card_pressed">#EFEFEF</color>
+    <color name="card_border_pressed">#696969</color>
+    <color name="case_reference_text">#547FBF</color>
+    <color name="current_setting_text">#547FBF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="empty_state_background">#ECEEF0</color>
+    <color name="empty_state_border">#DEDEDE</color>
+    <color name="dialog_note_border">#BBBDC2</color>
+    <color name="dialog_header_text_color">#34363b</color>
+    <color name="dialog_note_content_bg">#f1f2f4</color>
+    <color name="attachment_selected_border">#547fbf</color>
+    <color name="view_attachments_background">#F4F3F7</color>
+    <color name="actions_visits_open">#34363B</color>
+    <color name="text_color_for_expandable_group_items">#52555d</color>
+    <color name="record_audio_blue">#547fbf</color>
+    <color name="record_audio_red">#CA2100</color>
+    <color name="recording_time_text">#34363b</color>
+    <color name="seekbar_progress_color">#3580c3</color>
+    <color name="fragment_visit_date_text">#B0B5C3</color>
+    <color name="fragment_visit_time_text">#474747</color>
+    <color name="label_text">#B9BDC6</color>
+    <color name="record_red_button_bg">#ca2100</color>
+    <color name="record_red_button_pressed_bg">#66ca2100</color>
+    <color name="record_red_button_disabled_bg">#d5d5d5</color>
+    <color name="record_blue_button_default">#547fbf</color>
+    <color name="record_blue_button_pressed">#66547fbf</color>
+    <color name="record_flag_button_border">#7b7b7b</color>
+    <color name="seekbar_thumb_color">#4c4e52</color>
+    <color name="login_editext_border_focused">#6397c7</color>
+    <color name="login_editext_border_default">#a7a7a7</color>
+    <color name="attachment_border">#ccced5</color>
+    <color name="client_assessment_border">#C5D0E5</color>
+    <color name="comment_assessment_border">#D7DF9D</color>
+    <color name="finish_later_assessment_border">#DBB7D2</color>
+    <color name="delete_assessment_border">#F72663</color>
+    <color name="complete_assessment_border">#EEDA86</color>
+
+</resources>
